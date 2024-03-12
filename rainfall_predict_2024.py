@@ -22,8 +22,8 @@ dataset_df['datetime'] = pd.to_datetime(dataset_df['datetime'])
 # Extracting year value from datetime type of data
 dataset_df['year'] = dataset_df['datetime'].dt.year
 
-print(f'Exploratory Data Analysis')
-print(f'Precipitation over various months through the years 2018 - 2023')
+print('Exploratory Data Analysis')
+print('Precipitation over various months through the years 2018 - 2023')
 
 # Creating respective year precipitation/raainfall level subplots subplots
 plt.figure(figsize=(22, 8))
